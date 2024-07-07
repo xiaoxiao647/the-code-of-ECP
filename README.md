@@ -4,9 +4,13 @@
 * ECP_normal_model.R
 
 该代码用于在正态终点下，使用ECP从单个外部数据借用信息的模拟研究，生成手稿中表4的模拟结果。它包含四个函数：
+
 1）decide_para()用于确定弹性函数g(T)=exp⁡(a+b∙log⁡(T))中的参数a和b；
+
 2）sample_poster()用于对对照组均值的后验进行抽样；
+
 3）ECP_normal_model()用于获得每次试验里试验组疗效优于对照组疗效的概率；
+
 4）rej_null_p()用于计算拒绝零假设，声称药物优效的概率。
 
 * ECP_multiple_normal_model.R
